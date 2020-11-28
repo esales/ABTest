@@ -2,4 +2,15 @@ language: php
 php:
   - 7.4.8
 
+before_script:
+  - composer self-update
+  - composer install --prefer-source --no-interaction --dev
+
 script: phpunit index.php
+
+before-install:
+ - composer self-update
+# Install composer dependencies,
+# Create database, schema and fixtures
+install:
+ - composer install
