@@ -1,5 +1,4 @@
 <?php
-require 'vendor/autoload.php';
 use Optimizely\OptimizelyFactory;
 
 $userId='2';
