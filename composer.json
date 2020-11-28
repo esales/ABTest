@@ -1,0 +1,5 @@
+{
+    "require": {
+        "optimizely/optimizely-sdk": "^3.6"
+    }
+}
