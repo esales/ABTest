@@ -1,5 +1,8 @@
 {
     "require": {
         "optimizely/optimizely-sdk": "^3.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
     }
 }
